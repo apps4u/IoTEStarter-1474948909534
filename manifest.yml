@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: IoTEStarter
+  host: IoTEStarter
+  disk_quota: 1024M
+  services:
+  - IoTEStarter-ibm-iot-for-electronics
+  - IoTEStarter-iotf-service
+  - IoTEStarter-AdvancedMobileAccess
+  - performance-monitoring-auto
